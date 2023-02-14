@@ -24,7 +24,6 @@ add.addEventListener('click',function () {
     let label = document.createElement("label");
     let task = document.createElement("input");
     task.type = "checkbox";
-    // task.onclick = "updateStatus(this)";
     task.setAttribute("onclick","updateStatus(this)")
     let div = document.createElement('div');
     div.className = "task";
@@ -59,7 +58,6 @@ function updateStatus(select){
 
 // Delete
 function deleteTask(select) {
-    console.log(select);
     let deleted = select.parentElement;
     deleted.remove();
 }
