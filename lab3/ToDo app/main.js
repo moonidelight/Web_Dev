@@ -40,7 +40,7 @@ add.addEventListener('click',function () {
     li.appendChild(img);
     ul.appendChild(li);
 
-   input.value = '';
+    input.value = '';
 
 })
 
