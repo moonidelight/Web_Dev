@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 6</title>
+</head>
+<body>
+<script>
+  function Calculator () {
+    this.method = {
+      '+': (a, b) => a + b,
+      '-': (a, b) => a - b,
+    }
+    this.calculate = function (str) {
+        let split = str.split(' '),
+                a = +split[0],
+                b = +split[2],
+                c = split[1];
+
+        if (!this.method[c]) return NaN;
+
+        return this.method[c](a, b);
+    }
+    this.addMethod = function (str, func){
+      this.method[str] = func;
+    }
+  }
+
+  let calc = new Calculator;
+  alert( calc.calculate("3 + 7") ); // 10
+
+  let powerCalc = new Calculator;
+  powerCalc.addMethod("*", (a, b) => a * b);
+  powerCalc.addMethod("/", (a, b) => a / b);
+  powerCalc.addMethod("**", (a, b) => a ** b);
+
+  let result = powerCalc.calculate("2 ** 3");
+  alert( result ); // 8
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 6</title>
+</head>
+<body>
+<script>
+  function getSecondsToday () {
+    // let now = new Date();
+    // return now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
+
+    let now = new Date();
+    let today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    let diff = now - today; // ms difference
+    return Math.round(diff / 1000); // make seconds
+  }
+  alert(getSecondsToday())
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Objects, keys, values task 1</title>
+</head>
+<body>
+<script>
+    function sumSalaries (s) {
+        // let sum = 0;
+        // for (let key of Object.values(s)) {
+        //     sum += key;
+        // }
+        // return sum;
+        return Object.values(s).reduce((a,b)=> a+b,0);
+    }
+    let salaries = {
+        "John": 100,
+        "Pete": 300,
+        "Mary": 250
+    };
+
+    alert( sumSalaries(salaries) ); // 650
+</script>
+</body>
+</html>

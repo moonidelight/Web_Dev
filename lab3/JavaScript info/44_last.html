@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+</head>
+<body>
+<script>
+  let map = new Map();
+
+  map.set("name", "John");
+
+  let keys = Array.from(map.keys());
+
+  // Error: keys.push is not a function
+  keys.push("more");
+  alert(keys);
+</script>
+</body>
+</html>
