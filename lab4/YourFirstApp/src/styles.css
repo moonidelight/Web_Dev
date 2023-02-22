@@ -145,3 +145,7 @@ img {
   display: flex;
   gap: 20px;
 }
+.items {
+  display: flex;
+  gap: 20px;
+}

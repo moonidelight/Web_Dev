@@ -33,17 +33,15 @@ export const products = [
     id: 2,
     name: 'Корм Kitekat кусочки в соусе кролик 85 г 1 шт',
     price: 144,
-    description: 'порода: для любой породы\n' +
-      'текстура: кусочки в соусе\n' +
-      'тип упаковки: пауч (пакетик)\n' +
-      'количество упаковок: 1 шт\n' +
-      'основной ингредиент: мясо\n' +
-      'вес упаковки: 85 г\n' +
-      'вкус: кролик',
+    description: 'Корм для кошек любой породы: \n' +
+      'кусочки в соусе, \n' +
+      'основной ингредиент - мясо, \n' +
+      'вес упаковки - 85 г, \n' +
+      'вкус - кролик',
     img1: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hd5/h4e/46705533026334/kitekat-krolik-v-souse-85-g-100219866-1-Container.jpg",
     img2: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h77/he8/46705533485086/kitekat-krolik-v-souse-85-g-100219866-2.jpg",
     img3: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc7/h90/46705533943838/kitekat-krolik-v-souse-85-g-100219866-3.jpg",
-    rating: 0,
+    rating: 5,
     link: "https://kaspi.kz/shop/p/kitekat-kusochki-v-souse-krolik-85-g-1-sht-100219866/?c=750000000#!/item"
   },
   {
@@ -57,7 +55,7 @@ export const products = [
       'основной ингредиент: птица\n' +
       'вес упаковки: 85 г\n' +
       'вкус: курица',
-    rating: 0,
+    rating: 5,
     img1: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/he3/hb2/46689476837406/felix-appetitnye-kusocki-kurica-v-zele-85-g-100218764-1-Container.jpg",
     img2: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h6d/h9f/46689477296158/felix-appetitnye-kusocki-kurica-v-zele-85-g-100218764-2.jpg",
     img3: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5c/h16/46689477754910/felix-appetitnye-kusocki-kurica-v-zele-85-g-100218764-3.jpg",
@@ -73,7 +71,7 @@ export const products = [
       "основной ингредиент: мясо\n" +
       "холистик: Нет\n" +
       "вес упаковки: 1.9 кг",
-    rating: 0,
+    rating: 5,
     price: 2999,
     img1: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hff/h24/49690964131870/kitekat-telatinka-appetitnaa-1-9-kg-100221515-1-Container.jpg",
     img2: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h0b/ha5/46689172160542/kitekat-telatinka-appetitnaa-1-9-kg-100221515-2.jpg",
@@ -91,7 +89,7 @@ export const products = [
       'основной ингредиент: птица\n' +
       'холистик: Нет\n' +
       'вес упаковки: 0.35 кг',
-    rating: 0,
+    rating: 5,
     img1: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h15/h40/46693777637406/whiskas-vkusnye-podusecki-s-neznym-pastetom-kurica-i-indejka-350-g-100221268-1-Container.jpg',
     img2: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h99/h6d/46693778096158/whiskas-vkusnye-podusecki-s-neznym-pastetom-kurica-i-indejka-350-g-100221268-2.jpg',
     img3: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hab/hf6/46693778554910/whiskas-vkusnye-podusecki-s-neznym-pastetom-kurica-i-indejka-350-g-100221268-3.jpg',
@@ -108,7 +106,7 @@ export const products = [
       'основной ингредиент: птица, ,овощи\n' +
       'холистик: Нет\n' +
       'вес упаковки: 2 кг',
-    rating: 0,
+    rating: 5,
     img1: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hf6/h33/46689783250974/friskies-dla-kotat-kurica-moloko-i-ovosi-2-kg-100175356-1-Container.jpg',
     img2: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha8/hfc/46689783480350/friskies-dla-kotat-kurica-moloko-i-ovosi-2-kg-100175356-2-Container.jpg',
     img3: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8d/h5d/46689783709726/friskies-dla-kotat-kurica-moloko-i-ovosi-2-kg-100175356-3-Container.jpg',
@@ -146,7 +144,7 @@ export const products = [
     img2: '',
     img3: '',
     link: 'https://kaspi.kz/shop/p/sheba-296326-75-g-1-sht-102942490/?c=750000000#!/item',
-    rating: 0
+    rating: 5
   },
   {
     id: 9,
@@ -163,7 +161,7 @@ export const products = [
     img2: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h6d/h9b/46756335681566/pro-plan-delicate-adult-pri-cuvstvitelnom-pisevarenii-indejka-1-5-kg-100115938-2-Container.jpg',
     img3: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h47/h2d/46756335910942/pro-plan-delicate-adult-pri-cuvstvitelnom-pisevarenii-indejka-1-5-kg-100115938-3-Container.jpg',
     link: 'https://kaspi.kz/shop/p/pro-plan-delicate-adult-pri-chuvstvitel-nom-pischevarenii-indeika-1-5-kg--100115938/?c=750000000#!/item',
-    rating: 0
+    rating: 5
   },
   {
     id: 10,
@@ -173,7 +171,7 @@ export const products = [
       'возраст животного: для любого возраста\n' +
       'вкус: мясо\n' +
       'вес упаковки: 140 г',
-    rating: 0,
+    rating: 5,
     img1: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h24/hd3/33700187209758/dreamies-podusecki-s-govadinoj-140-g-101251114-1-Container.jpg',
     img2: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h52/h40/33700195336222/dreamies-podusecki-s-govadinoj-140-g-101251114-2-Container.jpg',
     img3: '',
