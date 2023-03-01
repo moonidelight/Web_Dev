@@ -7,6 +7,6 @@ import {categories} from "./categories";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'YourFirstApp';
+  title = 'OnlineStore';
   categories = categories
 }
