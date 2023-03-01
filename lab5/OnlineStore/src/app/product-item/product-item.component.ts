@@ -42,7 +42,7 @@ export class ProductItemComponent {
             // @ts-ignore
             p[j].like++;
           }else {
-            p[j].like = 0;
+            p[j].like = 1 ;
           }
         }
       }
