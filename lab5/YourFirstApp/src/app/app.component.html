@@ -1,0 +1,15 @@
+<app-top-bar></app-top-bar>
+
+
+<div class="container">
+  <div class="category">
+    <h2> Categories </h2>
+
+    <div *ngFor="let category of categories">
+
+        <p [routerLink] = "['/items',category.id]">{{category.name}}</p>
+
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
