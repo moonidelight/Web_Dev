@@ -1,0 +1,7 @@
+
+<div *ngFor="let photo of photos">
+  <li>{{photo.id}}) {{photo.title}}
+  </li>
+  <img src="{{photo.url}}" width="200">
+</div>
+<button routerLink="/albums/{{photos[1].albumId}}/photos/album">Return Back</button>

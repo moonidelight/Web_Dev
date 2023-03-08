@@ -80,3 +80,19 @@ li {
     cursor: pointer;
     margin-right: 0;
 }
+.date {
+    display: flex;
+}
+select {
+    height: 20px;
+    width: 80px;
+}
+#date {
+    width: 30%;
+}
+#time {
+    width: 20%  ;
+}
+.deadline {
+    background-color: red;
+}

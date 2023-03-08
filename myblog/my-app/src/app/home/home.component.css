@@ -1,0 +1,26 @@
+* {
+  color: #ffffff;
+  font-family: 'Prompt', sans-serif;
+  text-shadow: 1px 2px 10px #181818;
+}
+video {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+.profile {
+  position: absolute;
+  top: 20%;
+  background-color: rgba(255, 255, 255, 0.16);
+  width: 100%;
+  font-size: 40px;
+}
+.elements {
+  padding-left: 50px;
+}
+li {
+  list-style-type: none;
+}
