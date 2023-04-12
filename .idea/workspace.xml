@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d6cf955-456c-4ec6-8585-53fb9669dffc" name="Changes" comment="web_dev" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lab7" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Ky5QNruIl3QlAy5IqWa6N5nBIA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/web_dev",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\User\\web_dev\\lab10\\hh-front\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\web_dev\myblog\my-app\src\assets\ms" />
+      <recent name="C:\Users\User\web_dev\myblog\my-app\src\assets\to-do-list" />
+      <recent name="C:\Users\User\web_dev" />
+      <recent name="C:\Users\User\web_dev\lab5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\web_dev\myblog\my-app\src" />
+      <recent name="C:\Users\User\web_dev\myblog\my-app" />
+      <recent name="C:\Users\User\web_dev\myblog\my-app\src\assets\ms" />
+      <recent name="C:\Users\User\web_dev\myblog\my-app\src\assets\to-do-list" />
+      <recent name="C:\Users\User\web_dev\myblog\my-app\src\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="14.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="14.js" working-dir="$PROJECT_DIR$/lab3/JavaScript info">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d6cf955-456c-4ec6-8585-53fb9669dffc" name="Changes" comment="" />
+      <created>1674933968141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674933968141</updated>
+      <workItem from="1674933968354" duration="7836000" />
+      <workItem from="1674976185717" duration="6633000" />
+      <workItem from="1674992262708" duration="11510000" />
+      <workItem from="1675318221916" duration="29870000" />
+      <workItem from="1675603064813" duration="18563000" />
+      <workItem from="1675698973003" duration="538000" />
+      <workItem from="1675747607847" duration="9571000" />
+      <workItem from="1675760058224" duration="1790000" />
+      <workItem from="1675778637890" duration="29842000" />
+      <workItem from="1675847566529" duration="8433000" />
+      <workItem from="1676000984822" duration="9432000" />
+      <workItem from="1676027603439" duration="13137000" />
+      <workItem from="1676095996032" duration="5360000" />
+      <workItem from="1676123065374" duration="5505000" />
+      <workItem from="1676131299607" duration="235000" />
+      <workItem from="1676142472306" duration="7000" />
+      <workItem from="1676179170066" duration="27530000" />
+      <workItem from="1676286279797" duration="117000" />
+      <workItem from="1676303812536" duration="14498000" />
+      <workItem from="1676345825257" duration="7238000" />
+      <workItem from="1676382460207" duration="167000" />
+      <workItem from="1676398923353" duration="3521000" />
+      <workItem from="1676797582991" duration="166000" />
+      <workItem from="1676906556756" duration="8554000" />
+      <workItem from="1676964243378" duration="3836000" />
+      <workItem from="1676968214710" duration="3663000" />
+      <workItem from="1676990817100" duration="10629000" />
+      <workItem from="1677072414587" duration="2750000" />
+      <workItem from="1677583023720" duration="12000" />
+      <workItem from="1677597045155" duration="17503000" />
+      <workItem from="1677648652071" duration="632000" />
+      <workItem from="1677661583018" duration="3286000" />
+      <workItem from="1677665040763" duration="506000" />
+      <workItem from="1677744079682" duration="225000" />
+      <workItem from="1677749271669" duration="9176000" />
+      <workItem from="1677863205718" duration="1576000" />
+      <workItem from="1677910762268" duration="2295000" />
+      <workItem from="1677998130736" duration="9787000" />
+      <workItem from="1678179352431" duration="12000" />
+      <workItem from="1678254681333" duration="19697000" />
+      <workItem from="1678353649461" duration="5905000" />
+      <workItem from="1678900640871" duration="29000" />
+      <workItem from="1679228471862" duration="242000" />
+      <workItem from="1679513984617" duration="28000" />
+      <workItem from="1680286052056" duration="50000" />
+      <workItem from="1680779180964" duration="456000" />
+      <workItem from="1681318843816" duration="62000" />
+      <workItem from="1681837733988" duration="15000" />
+      <workItem from="1681837752101" duration="4343000" />
+      <workItem from="1681843331950" duration="2949000" />
+    </task>
+    <task id="LOCAL-00001" summary="web_dev">
+      <created>1681843969675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681843969675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lab5/YourFirstApp/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/myblog/my-app/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="web_dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="web_dev" />
+  </component>
+</project>
