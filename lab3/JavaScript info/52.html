@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 2</title>
+</head>
+<body>
+<script>
+  function getWeekDay (d) {
+    let day = ['SU','MO','TU','WE','TH','Fr','SA'];
+    return day[d.getDay()];
+  }
+  let date = new Date(2012, 0, 3);  // 3 Jan 2012
+  alert( getWeekDay(date) );
+</script>
+</body>
+</html>

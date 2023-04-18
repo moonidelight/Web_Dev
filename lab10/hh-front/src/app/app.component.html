@@ -1,0 +1,25 @@
+<h1>Categories</h1>
+
+<fieldset method="post">
+  <label>Company name </label>
+  <input type="text" [(ngModel)]="newCompanyName" >
+  <br>
+  <label>Company description </label>
+  <input type="text" [(ngModel)]="newCompanyDesc" >
+  <br>
+  <label>Company city </label>
+  <input type="text" [(ngModel)]="newCompanyCity" >
+  <br>
+  <label>Company address </label>
+  <input type="text" [(ngModel)]="newCompanyAddress">
+  <br>
+  <button (click)="addCompany()">Add company</button>
+</fieldset>
+<ul>
+  <li *ngFor="let company of companies">
+    <a routerLink="/companies/{{company.id}}"> {{company.id}} - {{company.name}}  ({{company.description}})
+    </a>
+    <button (click)="deleteCompany(company.id)">Delete</button>
+  </li>
+</ul>
+<router-outlet></router-outlet>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    'use strict';
+    // task 1
+    function ucFirst (str) {
+        if (!str) return str;
+
+        return str[0].toUpperCase() +  str.slice(1);
+    }
+    // alert(ucFirst('john'));
+
+    // task 2
+    function checkSpam (str) {
+        str = str.toLowerCase();
+        return str.includes('viagra') || str.includes('xxx');
+    }
+    // alert (checkSpam('buy viagra now'));
+
+    // task 3
+    function truncate (str, maxlength) {
+
+        return (str > maxlength) ?
+            str.slice(0, maxlength - 1) + '...' : str;
+    }
+    // alert( truncate("Hi everyone!", 20));
+    alert( truncate( "What I'd like to tell on this topic is:", 20));
+
+    // task 4
+    function extractCurrencyValue (str) {
+        return +str.slice(1);
+    }
+    alert(extractCurrencyValue('$120') === 120);
+</script>
+</body>
+</html>

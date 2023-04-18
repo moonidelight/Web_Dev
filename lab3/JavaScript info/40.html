@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 12</title>
+</head>
+<body>
+<script>
+  function unique(arr) {
+    let array = [];
+    for (let key of arr) {
+      if (!array.includes(key)) {
+        array.push(key);
+      }
+    }
+    return array;
+  }
+
+  let strings = ["Hare", "Krishna", "Hare", "Krishna",
+    "Krishna", "Krishna", "Hare", "Hare", ":-O"
+  ];
+
+  alert( unique(strings) ); // Hare, Krishna, :-O
+</script>
+</body>
+</html>

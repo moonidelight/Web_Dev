@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+
+    // 1
+    alert(null || 2 || undefined); // ans: 2
+    // 2
+    alert(alert(1) || 2 || alert(3)); // ans: 1 ,2
+    // 3
+    alert(1 && null && 2) // ans: null
+    // 4
+    alert(null || 2 && 3 || 4); // 3
+    // 5
+    let age;
+    if(age>=14 && age<=90){}
+    // 6
+    if(!(age>=14 && age<=90)){}
+    if(age<14 || age>90){}
+    // 7
+    if (-1 || 0) alert( 'first' );
+    if (-1 && 0) alert( 'second' );
+    if (null || -1 && 1) alert( 'third' ); // first and third will execute
+
+    //8
+    let login = prompt("Who's there?",'');
+    if (login ==='Admin') {
+        let password = prompt('Password?');
+        if(password === 'TheMaster') alert("Welcome!");
+        else if(password==='' || password===null) alert('Canceled');
+        else alert("Wrong Password");
+    }
+    else if(login==='' || login===null) alert('Canceled');
+    else alert("I don't know you");
+  </script>
+</body>
+</html>

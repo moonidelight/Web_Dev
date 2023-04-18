@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 2 anagarams</title>
+</head>
+<body>
+<script>
+  function aclean(arr) {
+    let map = new Map();
+
+    for (let key of arr) {
+      let sorted = key.toLowerCase().split('').sort().join('');
+      map.set(sorted,key);
+    }
+    return Array.from(map.values());
+  }
+  let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+
+  alert( aclean(arr) ); // "nap,teachers,ear" or "PAN,cheaters,era
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrays</title>
+</head>
+<body>
+<script>
+  // task 1
+  let fruits = ["Apples", "Pear", "Orange"];
+
+  // push a new value into the "copy"
+  let shoppingCart = fruits;
+  shoppingCart.push("Banana");
+
+  // what's in fruits?
+  // alert( fruits.length ); // ? answer: 4
+
+  // task 2
+  let styles = ['Jazz', 'Blues'];
+  styles.push('Rock-n-Roll');
+  styles[ Math.floor((styles.length-1)/2)] = 'Classic';
+  // alert(styles.shift());
+  styles.unshift('Rap', 'Reggae');
+
+  // task 3
+  let arr = ["a", "b"];
+
+  arr.push(function() {
+    alert( this );
+  });
+
+  // arr[2](); // ans: a,b, function(){...}
+
+  // task 4
+  function sumInput () {
+    let n;
+    let arr = [];
+    let sum = 0;
+    while (n = prompt('enter')) {
+        if (n === "" || n === null || !isFinite(n)) break;
+        arr.push(+n);
+    }
+    for (let number of arr){
+        sum += number;
+    }
+    return sum;
+  }
+  // task 5
+  function getMaxSubSum (arr) {
+      let maxSum = 0;
+      let partialSum = 0;
+
+      for (let item of arr) {
+          partialSum += item;
+          maxSum = Math.max(maxSum, partialSum);
+          if (partialSum < 0) partialSum = 0;
+      }
+      return maxSum;
+  }
+  alert(getMaxSubSum([2, -1, 2, 3, -9]));
+</script>
+</body>
+</html>

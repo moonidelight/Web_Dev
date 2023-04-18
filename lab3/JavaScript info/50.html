@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 2</title>
+</head>
+<body>
+<script>
+  function topSalary (s) {
+    let max = 0;
+    let maxName = null;
+    for (let [key,value] of Object.entries(s)) {
+      if (max < value) {
+        max = value
+        maxName = key;
+      }
+    }
+    return maxName;
+
+  }
+  let salaries = {
+    "John": 100,
+    "Pete": 300,
+    "Mary": 250
+  };
+</script>
+</body>
+</html>

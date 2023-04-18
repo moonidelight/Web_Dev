@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+</head>
+<body>
+<script>
+    function Accumulator (startingValue) {
+        this.value = startingValue;
+        this.read = function () {
+            let a = +prompt('new value');
+            this.value += a;
+        }
+    }
+    let accumulator = new Accumulator(1); // initial value 1
+
+    accumulator.read(); // adds the user-entered value
+    accumulator.read(); // adds the user-entered value
+
+    alert(accumulator.value); // shows the sum of these values
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<h1>Vacancies of Company {{companyId}}</h1>
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    {{vacancy.id}}. {{vacancy.name}} - Salary: {{vacancy.salary}}
+  </li>
+</ul>

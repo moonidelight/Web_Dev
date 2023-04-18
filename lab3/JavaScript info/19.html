@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://en.js.cx/test/libs.js"></script>
+    <script src="19_test.js"></script>
+</head>
+<body>
+<script>
+  // Task 2
+  let calculator = {
+
+    read () {
+      let a = +prompt('first value',0);
+      let b = +prompt('second value',0);
+      this.a = a;
+      this.b = b;
+    },
+    sum () {
+      return this.a + this.b;
+    },
+    mul () {
+      return this.a * this.b;
+    }
+  };
+
+  calculator.read();
+  alert( calculator.sum() );
+  alert( calculator.mul() );
+</script>
+</body>
+</html>
